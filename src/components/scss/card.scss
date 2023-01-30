@@ -1,0 +1,55 @@
+$border-radius :1rem;
+$bg-color: white;
+$margin: 1rem;
+$hover-bg:rgb(0, 0, 0);
+$hover-color:white;
+.card{
+    border-radius: $border-radius;
+   background-color: $bg-color;
+
+   *{
+    color: black;
+   }
+    
+
+}
+.card-image {
+    img{
+        border-radius: $border-radius;
+        width: 100%;
+    }
+}
+.card-content{
+ margin: $margin;
+}
+.card-title{
+    margin: $margin;
+    h2{
+        font-weight:750;
+        font-size: large;
+    }
+
+}
+.card-link{
+    margin: $margin;
+    display: flex ;
+    gap: 1rem;
+    width: fit-content;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+}
+.card-link:hover{
+    background-color: $hover-bg;
+    border-radius: $border-radius;
+    width: calc(20% * 1.0025);;
+    *{
+        color: $hover-color;
+    }
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(218, 211, 211, 0.427), 0 4px 8px rgba(0,0,0,.06);
+}

@@ -1,0 +1,40 @@
+.card {
+  border-radius: 1rem;
+  background-color: white; }
+  .card * {
+    color: black; }
+
+.card-image img {
+  border-radius: 1rem;
+  width: 100%; }
+
+.card-content {
+  margin: 1rem; }
+
+.card-title {
+  margin: 1rem; }
+  .card-title h2 {
+    font-weight: 750;
+    font-size: large; }
+
+.card-link {
+  margin: 1rem;
+  display: flex;
+  gap: 1rem;
+  width: fit-content;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.card-link:hover {
+  background-color: black;
+  border-radius: 1rem;
+  width: calc(20% * 1.0025); }
+  .card-link:hover * {
+    color: white; }
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(218, 211, 211, 0.427), 0 4px 8px rgba(0, 0, 0, 0.06); }
+
+/*# sourceMappingURL=card.css.map */

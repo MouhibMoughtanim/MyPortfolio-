@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,YAAY;EACR,YAAY,EAAE,OAAO",
+"sources": ["../scss/form.scss"],
+"names": [],
+"file": "form.css"
+}

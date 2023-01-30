@@ -1,0 +1,18 @@
+.logo{
+    border-radius: 50%;
+    height: 10rem;
+}
+.profile-card{
+    display: flex;
+   align-items: center;
+   flex-direction: column ;
+   gap: 1rem;
+   max-width: 40dvw;
+   h1{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+   }
+  
+
+}
